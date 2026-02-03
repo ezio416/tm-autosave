@@ -14,9 +14,5 @@ void Main() {
 }
 
 void OnSettingsChanged() {
-    if (S_Interval == 0)
-        S_Interval = 1;
-
-    if (S_Interval > 60)
-        S_Interval = 60;
+    S_Interval = Math::Clamp(S_Interval, 1, 60);
 }
