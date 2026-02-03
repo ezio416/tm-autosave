@@ -8,8 +8,12 @@ void Main() {
     while (true) {
         sleep(1000);
 
-        if (S_Enabled && Time::Stamp % (S_Interval * 60) == 0)
+        if (true
+            and S_Enabled
+            and Time::Stamp % (S_Interval * 60) == 0
+        ) {
             Meta::SaveSettings();
+        }
     }
 }
 
