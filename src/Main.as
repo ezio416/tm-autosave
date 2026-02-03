@@ -6,7 +6,7 @@ uint S_Interval = 5;
 
 void Main() {
     while (true) {
-        sleep(1000);
+        sleep(999);
 
         if (true
             and S_Enabled
