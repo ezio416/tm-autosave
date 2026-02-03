@@ -2,7 +2,7 @@
 bool S_Enabled = true;
 
 [Setting category="General" name="Interval (minutes)" min=1 max=60]
-uint S_Interval = 5;
+int S_Interval = 5;
 
 void Main() {
     while (true) {
