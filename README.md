@@ -10,6 +10,4 @@
 
 Saves Openplanet's settings at a specified interval.
 
-<!-- ![Signed](https://img.shields.io/badge/Signed-School_Mode-CC1199) -->
-
 ![image](images/main.png)
